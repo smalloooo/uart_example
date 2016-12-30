@@ -1,0 +1,11 @@
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\bin\Debug\AVM_TOOLS.exe.config
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\bin\Debug\AVM_TOOLS.exe
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\bin\Debug\AVM_TOOLS.pdb
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\obj\Debug\AVM_TOOLS.csprojResolveAssemblyReference.cache
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\obj\Debug\AVM_TOOLS.AVM_TOOLS.resources
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\obj\Debug\AVM_TOOLS.Properties.Resources.resources
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\obj\Debug\AVM_TOOLS.csproj.GenerateResource.Cache
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\obj\Debug\AVM_TOOLS.exe
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\obj\Debug\AVM_TOOLS.pdb
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\bin\Debug\AVM_TOOLS.exe.CodeAnalysisLog.xml
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\bin\Debug\AVM_TOOLS.exe.lastcodeanalysissucceeded

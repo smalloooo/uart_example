@@ -1,0 +1,8 @@
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\obj\Release\AVM_TOOLS.AVM_MCU_TOOLS.resources
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\obj\Release\AVM_TOOLS.Properties.Resources.resources
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\obj\Release\AVM_MCU_TOOLS.csproj.GenerateResource.Cache
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\bin\Release\AVM_MCU_TOOLS.exe.config
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\bin\Release\AVM_MCU_TOOLS.exe
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\bin\Release\AVM_MCU_TOOLS.pdb
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\obj\Release\AVM_MCU_TOOLS.exe
+D:\SourceCode\AVM_TOOLS\AVM_TOOLS\obj\Release\AVM_MCU_TOOLS.pdb

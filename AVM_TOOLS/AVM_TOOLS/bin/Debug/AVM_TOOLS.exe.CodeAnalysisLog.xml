@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Targets>
+  <Target Name="D:\SourceCode\AVM_TOOLS\AVM_TOOLS\bin\Debug\AVM_TOOLS.exe">
+   <Modules>
+    <Module Name="avm_tools.exe">
+     <Namespaces>
+      <Namespace Name="AVM_TOOLS">
+       <Types>
+        <Type Name="AVM_TOOLS" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Dispose(System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="fs" TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213" Status="Active" Created="2015-11-09 02:19:38Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="d:\SourceCode\AVM_TOOLS\AVM_TOOLS" File="AVM_TOOLS.Designer.cs" Line="15">'AVM_TOOLS' 含有欄位 'AVM_TOOLS.fs'，是屬於 IDisposable 類型:  'FileStream'。請變更 'AVM_TOOLS' 上的 Dispose 方法以在這個欄位上呼叫 Dispose 或 Close。</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DisposableFieldsShouldBeDisposed" Category="Microsoft.Usage" CheckId="CA2213">
+   <Name>可處置的欄位應該受到處置</Name>
+   <Description>如果某個實作 IDisposable 的類型具有也實作 IDisposable 的欄位，這個封裝類型的 Dispose() 實作應該呼叫每一個可處置欄位上的 Dispose()。</Description>
+   <Resolution Name="Default">{0} 含有欄位 {1}，是屬於 IDisposable 類型:  {2}。請變更 {0} 上的 Dispose 方法以在這個欄位上呼叫 Dispose 或 Close。</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182328.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">分類</String>
+  <String Key="Certainty">確實性</String>
+  <String Key="CollapseAll">全部摺疊</String>
+  <String Key="CheckId">檢查 ID</String>
+  <String Key="Error">錯誤</String>
+  <String Key="Errors">錯誤</String>
+  <String Key="ExpandAll">全部展開</String>
+  <String Key="Help">說明</String>
+  <String Key="Line">行</String>
+  <String Key="Messages">訊息</String>
+  <String Key="LocationNotStoredInPdb">[位置未儲存在 PDB]</String>
+  <String Key="Project">專案</String>
+  <String Key="Resolution">解析度</String>
+  <String Key="Rule">規則</String>
+  <String Key="RuleFile">規則檔</String>
+  <String Key="RuleDescription">規則描述</String>
+  <String Key="Source">來源</String>
+  <String Key="Status">狀態</String>
+  <String Key="Target">目標</String>
+  <String Key="Warning">警告</String>
+  <String Key="Warnings">警告</String>
+  <String Key="ReportTitle">程式碼分析報告</String>
+ </Localized>
+</FxCopReport>
